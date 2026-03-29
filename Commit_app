@@ -1,0 +1,18 @@
+# Navigate to your project folder
+cd "C:\Users\Benhard Leroy\streamlit-project"
+
+# Initialize git (if not already done)
+git init
+
+# Add your files
+git add 
+
+# Commit
+git commit -m "Initial commit"
+
+# Connect to GitHub (replace USERNAME and REPO-NAME)
+git remote add origin https://github.com/BenLeroyS/streamlit_project.git
+
+# Push
+git branch -M main
+git push -u origin main
